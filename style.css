@@ -1,15 +1,21 @@
-header {
+.page-header {
     border: 1px black dotted;
+    display: flex;
 }
 
 .logo{
-    display: flex;
-    margin-left: 100px;
+    margin-left: 150px;
     width: 200px;
+    height: 100%;
+    padding: 10px;
+    float: left;
+}
+
+.page-header nav {
+    margin-top: 2%;
 }
 
 header ul li{
-
     display: inline-block;
 }
 
