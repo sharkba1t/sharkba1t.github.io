@@ -14,24 +14,30 @@ header ul li{
 }
 
 .main {
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 400px;
+    margin-right: 400px;
     background-color: aquamarine;
     border: 2px black solid;
     height: 900px;
     
 }
 
-.pfp {
-    display: inline-block;
+.pfp{
     max-width: 10em;
     border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
 }
 
-p > .bio {
-    display: inline-block;
+.bio {
+    padding: 20px;
 }
 
+.bio > p {
+    padding: 10px;
+    padding-left: 20px;;
+}
 .projects {
     display: flex;
     justify-content: center;
@@ -55,4 +61,11 @@ footer > p {
     margin-top: 0;
     text-align: center;
     color: white;
+}
+
+@media only screen and (max-width: 1075px){
+    .main {
+        margin-left: 300px;
+        margin-right: 300px;
+        }
 }
