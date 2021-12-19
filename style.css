@@ -1,0 +1,58 @@
+header {
+    border: 1px black dotted;
+}
+
+.logo{
+    display: flex;
+    margin-left: 100px;
+    width: 200px;
+}
+
+header ul li{
+
+    display: inline-block;
+}
+
+.main {
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: aquamarine;
+    border: 2px black solid;
+    height: 900px;
+    
+}
+
+.pfp {
+    display: inline-block;
+    max-width: 10em;
+    border-radius: 50%;
+}
+
+p > .bio {
+    display: inline-block;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+}
+
+.project {
+    display: inline-block;
+    padding: 10px;
+}
+
+.previous {
+    border-left: 2px beige double;
+}
+
+footer {
+    background-color: black;
+}
+
+footer > p {
+    height: 50px;
+    margin-top: 0;
+    text-align: center;
+    color: white;
+}
