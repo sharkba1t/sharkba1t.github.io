@@ -307,12 +307,12 @@ footer p {
 }
 
 
-@media (min-width: 1000px) and (max-width: 1500px){
+@media (min-width: 1284px) and (max-width: 1500px){
   .pfp {
     max-width: 35%;
   }
   .main {
-       margin: 80px 15% 0; 
+       margin: 7vh 15% 0; 
        min-height: 95vh;
       }
   .projects {
@@ -324,18 +324,18 @@ footer p {
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1284px) {
   .page-header {
-    min-height: 8vh;
+    min-height: 6vh;
   }
 
   .logo {
-    min-width: 40%;
+    min-width: 30%;
     margin-left: 0;
   }
 
   .main {
-      margin: 7vh 5% 0;
+      margin: 14vh 5% 0;
       min-height: 88vh;
       }
 
@@ -378,56 +378,3 @@ footer p {
     width: 100%;
   }
 }
-
-/*
-@media screen and (min-width: 768px) {
-  .logo {
-    margin-left: 0;
-  }
-
-  .main {
-      margin: 60px 5% 0;
-      min-height: 90vh;
-      }
-
-  .pfp {
-    max-width: 60%;
-    margin: 0 50% 0;
-    float: none;
-
-  }
-  .profile-pic{
-    display: flex;
-    justify-content: center;
-  }
-  .bio > h2 {
-        display: block;
-        text-align: center;
-      }
-
-  .skills {
-        margin: 0 35% 0;
-      }
-  .projects {
-    display: block;
-    margin: 0 10% 0;
-  }
-  .project {
-    border-bottom: 1px black solid;
-    margin-bottom: 0;
-  }
-
-  .previous {
-    margin-top: 0;
-    border: none;
-  }
-
-  footer {
-    padding-top: 20px;
-    left: 0;
-    box-sizing: border-box;
-    width: 100%;
-  }
-}
-
-*/
