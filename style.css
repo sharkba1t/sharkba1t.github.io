@@ -307,19 +307,87 @@ footer p {
 }
 
 
-@media (min-width: 801px) and (max-width: 1500px){
+@media (min-width: 1000px) and (max-width: 1500px){
+  .pfp {
+    max-width: 35%;
+  }
   .main {
        margin: 80px 15% 0; 
+       min-height: 95vh;
       }
+  .projects {
+    margin-left: 50px 0 50px;
+  }
+  .skills {
+    margin-left: 40%;
+  }
 }
 
-@media (max-width: 800px) {
+
+@media (max-width: 1000px) {
+  .page-header {
+    min-height: 8vh;
+  }
+
+  .logo {
+    min-width: 40%;
+    margin-left: 0;
+  }
+
+  .main {
+      margin: 7vh 5% 0;
+      min-height: 88vh;
+      }
+
+  .pfp {
+    max-width: 60%;
+    margin: 0 50% 0;
+    float: none;
+
+  }
+  .profile-pic{
+    display: flex;
+    justify-content: center;
+  }
+  .bio > h2 {
+        display: block;
+        text-align: center;
+      }
+
+  .skills {
+        margin: 0 35% 0;
+      }
+  .projects {
+    display: block;
+    margin: 0 10% 0;
+  }
+  .project {
+    border-bottom: 1px black solid;
+    margin-bottom: 0;
+  }
+
+  .previous {
+    margin-top: 0;
+    border: none;
+  }
+
+  footer {
+    position: relative;
+    padding-top: 20px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+}
+
+/*
+@media screen and (min-width: 768px) {
   .logo {
     margin-left: 0;
   }
 
   .main {
       margin: 60px 5% 0;
+      min-height: 90vh;
       }
 
   .pfp {
@@ -357,8 +425,9 @@ footer p {
   footer {
     padding-top: 20px;
     left: 0;
-    position: relative;
     box-sizing: border-box;
     width: 100%;
   }
 }
+
+*/
