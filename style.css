@@ -195,6 +195,16 @@
 /*style*/
 
 /*overall*/
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  margin: 0;
+  padding: 0;
+}
+
+
 .page-header, .main, footer{
     overflow-y: hidden;
     overflow-x: hidden;
@@ -291,17 +301,14 @@ body {
 /*footer*/
 
 footer {
+    padding-top: 30px;
+    padding-bottom: 16px;
     background-color: black;
-    z-index: 100;
-    left: 0;
-    bottom: 0;
-    position: absolute;
-    box-sizing: border-box;
+    height: 100%;
     width: 100%;
 }
 
 footer p {
-    height: 50px;
     text-align: center;
     color: white;
 }
@@ -321,10 +328,23 @@ footer p {
   .skills {
     margin-left: 40%;
   }
+  footer {
+    height: 100%;
+    width: 100%;
+  }
 }
 
 
 @media (max-width: 1284px) {
+  h1, h2, h3,
+  h4, h5, h6 {
+      font-size: 1.5em;
+  }
+
+   p, .skills > ul, .projects ul {
+    font-size: 1.3em;
+  }
+
   .page-header {
     min-height: 6vh;
   }
@@ -335,8 +355,9 @@ footer p {
   }
 
   .main {
-      margin: 14vh 5% 0;
+      margin: 18% 5% 5%;
       min-height: 88vh;
+      padding: 5% 0 10%;
       }
 
   .pfp {
@@ -372,7 +393,6 @@ footer p {
   }
 
   footer {
-    position: relative;
     padding-top: 20px;
     box-sizing: border-box;
     width: 100%;
